@@ -1,0 +1,38 @@
+
+'''num = int(input("Enter a number reverse :"))
+sum = 0
+
+if num < 0 :
+    print("Please enter positive number....")
+else :
+    while num > 0 :
+        n = num % 10
+        sum = sum * 10 + n
+        num //= 10      
+    print(sum)'''
+
+'''num = input("Enter a number to reverse :")
+n = str(num[::-1])
+print(n)'''
+
+num = input("enter number :")
+sum = 0
+
+if not num.isdigit() :
+    print("please enter valid number..")
+else :
+    n = int(num)
+    if n < 0 :
+        print("number must be positive. ")
+    else :
+        '''while n > 0 :
+            n1 = n % 10
+            sum = sum * 10 + n1
+            n //= 10  
+        print(sum)'''
+        
+        print(num[::-1])
+
+
+
+
